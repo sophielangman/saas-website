@@ -1,0 +1,49 @@
+html {
+  background-color: #7294c4;
+  font-family: Merriweather, serif;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  list-style-type: none;
+}
+
+.logo {
+  max-width: 3em;
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+}
+
+.company {
+  background-color: #fff;
+}
+
+a {
+  color: #7294c4;
+  text-decoration: none;
+  text-align: left;
+}
+
+a:hover {
+  color: #761c13;
+}
+
+.btn {
+  border-radius: 0;
+  border-color: #761c13;
+  background-color: #761c13;
+  color: #fff;
+}
+
+.btn:hover {
+  border-color: #761c13;
+  background-color: #fff;
+  color: #761c13;
+
+}
