@@ -25,7 +25,6 @@ nav li {
 }
 
 a {
-  color: #7294c4;
   text-decoration: none;
   text-align: left;
 }
@@ -41,9 +40,36 @@ a:hover {
   color: #fff;
 }
 
+.ghost-btn {
+  border-color: #7294c4;
+  background-color: #fff;
+  color: #7294c4;
+}
+
 .btn:hover {
   border-color: #761c13;
   background-color: #fff;
   color: #761c13;
+}
 
+.ghost-btn:hover {
+  border-color: #7294c4;
+  background-color: #7294c4;
+  color: #fff;
+}
+
+.red {
+    color: #761c13;
+}
+
+.dark-blue {
+    color: #7294c4;
+}
+
+.light-blue {
+    color: #d3def1;
+}
+
+footer {
+  background-color: #fff;
 }
