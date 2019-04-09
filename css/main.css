@@ -1,5 +1,5 @@
 html {
-  background-color: #7294c4;
+  background-color: #fff;
   font-family: Merriweather, serif;
 }
 
@@ -23,6 +23,12 @@ nav li {
 .company {
   background-color: #fff;
 }
+
+footer {
+  background-color: #fff;
+}
+
+/* button things */
 
 a {
   text-decoration: none;
@@ -58,6 +64,8 @@ a:hover {
   color: #fff;
 }
 
+/* Just colours */
+
 .red {
     color: #761c13;
 }
@@ -70,6 +78,22 @@ a:hover {
     color: #d3def1;
 }
 
-footer {
-  background-color: #fff;
+.black {
+    color: #000;
+}
+
+.bg-red {
+    background-color: #761c13;
+}
+
+.bg-dark-blue {
+    background-color: #7294c4;
+}
+
+.bg-light-blue {
+    background-color: #d3def1;
+}
+
+.bg-white {
+    background-color: #fff;
 }
