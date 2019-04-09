@@ -24,6 +24,16 @@ nav li {
   background-color: #fff;
 }
 
+.banner {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  left: 90px;
+  top: 190px;
+}
+
 footer {
   background-color: #fff;
 }
@@ -52,6 +62,12 @@ a:hover {
   color: #7294c4;
 }
 
+.red-ghost-btn {
+  border-color: #761c13;
+  background-color: #fff;
+  color: #761c13;
+}
+
 .btn:hover {
   border-color: #761c13;
   background-color: #fff;
@@ -67,33 +83,37 @@ a:hover {
 /* Just colours */
 
 .red {
-    color: #761c13;
+  color: #761c13;
 }
 
 .dark-blue {
-    color: #7294c4;
+  color: #7294c4;
 }
 
 .light-blue {
-    color: #d3def1;
+  color: #d3def1;
 }
 
 .black {
-    color: #000;
+  color: #000;
+}
+
+.white {
+  color: #fff;
 }
 
 .bg-red {
-    background-color: #761c13;
+  background-color: #761c13;
 }
 
 .bg-dark-blue {
-    background-color: #7294c4;
+  background-color: #7294c4;
 }
 
 .bg-light-blue {
-    background-color: #d3def1;
+  background-color: #d3def1;
 }
 
 .bg-white {
-    background-color: #fff;
+  background-color: #fff;
 }
