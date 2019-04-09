@@ -12,8 +12,13 @@ nav {
 }
 
 .logo {
-  max-width: 3em;
+  max-width: 4em;
   display: inline-block;
+}
+
+.icon {
+  max-width: 18em;
+  max-height: 25em;
 }
 
 nav li {
