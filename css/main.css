@@ -17,8 +17,12 @@ nav {
 }
 
 .icon {
-  max-width: 18em;
-  max-height: 25em;
+  max-width: 12em;
+}
+
+.prices {
+  max-width: 21em;
+  margin: 1em;
 }
 
 nav li {
@@ -35,8 +39,8 @@ nav li {
 
 .banner-text {
   position: absolute;
-  left: 90px;
-  top: 190px;
+  left: 100px;
+  top: 220px;
 }
 
 footer {
@@ -121,4 +125,16 @@ a:hover {
 
 .bg-white {
   background-color: #fff;
+}
+
+.border-bottom {
+  border-bottom: 5px solid #d3def1;
+}
+
+.border-dark {
+  border: 8px solid #7294c4;
+}
+
+.border-light {
+  border: 8px solid #d3def1;
 }
