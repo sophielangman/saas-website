@@ -54,7 +54,7 @@ a {
   text-align: left;
 }
 
-a:hover {
+.hover-red:hover {
   color: #761c13;
 }
 
