@@ -29,6 +29,10 @@ nav li {
   display: inline-block;
 }
 
+fieldset {
+  border: none;
+}
+
 .company {
   background-color: #fff;
 }
@@ -39,8 +43,8 @@ nav li {
 
 .banner-text {
   position: absolute;
-  left: 100px;
-  top: 220px;
+  left: 6em;
+  top: 11em;
 }
 
 footer {
@@ -133,6 +137,10 @@ a {
   background-color: #d3def1;
 }
 
+.bg-lightest-blue {
+  background-color: #eaf0f9;
+}
+
 .bg-white {
   background-color: #fff;
 }
@@ -177,21 +185,7 @@ th {
   box-shadow: -4px 10px 11px 3px rgba(0,0,0,0.19);
 }
 
-/* media query */
-
-@media only screen and (max-width: 608px) {
-
-  .banner-desktop {
-    display: hidden;
-  }
-}
-
-@media only screen and (max-width: 1440px) {
-
-  .banner-mobile {
-    display: hidden;
-  }
-}
+/* backgrounds */
 
 .bg-marble {
   background-image: url("../images/backgrounds/marble.png");
@@ -216,3 +210,5 @@ th {
 .bg-success {
   background-image: url("../images/backgrounds/bg-success.png");
 }
+
+/* media query */
