@@ -33,6 +33,10 @@ fieldset {
   border: none;
 }
 
+.all-prices {
+  justify-content: center;
+}
+
 .company {
   background-color: #fff;
 }
