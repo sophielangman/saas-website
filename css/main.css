@@ -176,3 +176,43 @@ th {
   -moz-box-shadow: -4px 10px 11px 3px rgba(0,0,0,0.19);
   box-shadow: -4px 10px 11px 3px rgba(0,0,0,0.19);
 }
+
+/* media query */
+
+@media only screen and (max-width: 608px) {
+
+  .banner-desktop {
+    display: hidden;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+
+  .banner-mobile {
+    display: hidden;
+  }
+}
+
+.bg-marble {
+  background-image: url("../images/backgrounds/marble.png");
+}
+
+.bg-home {
+  background-image: url("../images/backgrounds/bg-home.png");
+}
+
+.bg-tour {
+  background-image: url("../images/backgrounds/bg-tour.png");
+}
+
+.bg-pricing {
+  background-image: url("../images/backgrounds/bg-pricing.png");
+}
+
+.bg-sign-up {
+  background-image: url("../images/backgrounds/bg-form.png");
+}
+
+.bg-success {
+  background-image: url("../images/backgrounds/bg-success.png");
+}

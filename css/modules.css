@@ -1052,8 +1052,8 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-  background-color: #000;
-  border-color: #000;
+  background-color: #761c13;
+  border-color: #761c13;
   color: #fff;
 }
 
@@ -1064,7 +1064,7 @@ button[disabled] {
 .btn-light, .btn--light {
   background-color: #e2e2e2;
   border-color: #e2e2e2;
-  color: #000;
+  color: #761c13;
 }
 
 .btn-light:focus,
@@ -1080,7 +1080,7 @@ button[disabled] {
 .btn--ghost {
   background-color: transparent;
   border-color: #333;
-  color: #000;
+  color: #761c13;
 }
 
 .btn-ghost:focus,
@@ -1088,8 +1088,8 @@ button[disabled] {
 .btn--ghost:focus,
 .btn--ghost:hover {
   background-color: #e2e2e2;
-  border-color: #000;
-  color: #000;
+  border-color: #761c13;
+  color: #761c13;
 }
 
 .btn-link {
@@ -1119,7 +1119,6 @@ input:focus,
 textarea:focus,
 button:focus,
 select:focus {
-  outline: 3px solid #000;
   outline-offset: 0;
 }
 
