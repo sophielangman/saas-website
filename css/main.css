@@ -66,6 +66,10 @@ a {
   color: #761c13;
 }
 
+.another-hover:hover {
+  color: #d3def1;
+}
+
 .btn {
   border-radius: 0;
   border-color: #761c13;
@@ -110,6 +114,10 @@ a {
 /* Just colours */
 
 .red {
+  color: #761c13;
+}
+
+.current {
   color: #761c13;
 }
 
@@ -184,35 +192,50 @@ th {
 
 .feild {
   border: 0;
-  -webkit-box-shadow: -4px 10px 11px 3px rgba(0,0,0,0.19);
-  -moz-box-shadow: -4px 10px 11px 3px rgba(0,0,0,0.19);
-  box-shadow: -4px 10px 11px 3px rgba(0,0,0,0.19);
+  -webkit-box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, 0.19);
+  box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, 0.19);
 }
 
 /* backgrounds */
 
 .bg-marble {
   background-image: url("../images/backgrounds/marble.png");
+  background-size: cover;
 }
 
 .bg-home {
   background-image: url("../images/backgrounds/bg-home.png");
+  background-size: cover;
 }
 
 .bg-tour {
   background-image: url("../images/backgrounds/bg-tour.png");
+  background-size: cover;
 }
 
 .bg-pricing {
   background-image: url("../images/backgrounds/bg-pricing.png");
+  background-size: cover;
 }
 
 .bg-sign-up {
   background-image: url("../images/backgrounds/bg-form.png");
+  background-size: cover;
 }
 
 .bg-success {
   background-image: url("../images/backgrounds/bg-success.png");
+  background-size: cover;
 }
 
 /* media query */
+
+@media only screen and (min-width: 25em) {
+
+  .bg-banner {
+    background-image: url("../images/banner-mobile.png");
+    background-size: cover;
+  }
+
+}
