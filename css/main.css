@@ -43,6 +43,7 @@ fieldset {
 
 .banner {
   position: relative;
+  background-color: #7294c4;
 }
 
 .banner-text {
@@ -53,6 +54,28 @@ fieldset {
 
 footer {
   background-color: #fff;
+}
+
+/* skip links */
+
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  position: absolute;
+  top: -3em;
+  background-color: #d3def1;
+  color: #000;
+  padding: 0.5em 0.75em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.skip-links a:focus {
+  top: 1em;
 }
 
 /* button things */
