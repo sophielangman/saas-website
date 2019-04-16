@@ -3,10 +3,6 @@ html {
   font-family: Merriweather, serif;
 }
 
-body {
-  margin: 0;
-}
-
 nav {
   list-style-type: none;
 }
@@ -69,8 +65,7 @@ footer {
   top: -3em;
   background-color: #d3def1;
   color: #000;
-  padding: 0.5em 0.75em;
-  font-weight: bold;
+  padding: .5em .75em;
   text-decoration: none;
 }
 
