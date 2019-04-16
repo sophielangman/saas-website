@@ -37,17 +37,6 @@ fieldset {
   background-color: #fff;
 }
 
-.banner {
-  position: relative;
-  background-color: #7294c4;
-}
-
-.banner-text {
-  position: absolute;
-  left: 6em;
-  top: 11em;
-}
-
 footer {
   background-color: #fff;
 }
@@ -198,6 +187,10 @@ th {
   border: 1px solid #7294c4;
 }
 
+.table-width {
+  min-width: 50em;
+}
+
 /* Form stuff */
 
 .required {
@@ -210,9 +203,20 @@ th {
 
 .feild {
   border: 0;
-  -webkit-box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, 0.19);
-  box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, .19);
+  -moz-box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, .19);
+  box-shadow: -4px 10px 11px 3px rgba(0, 0, 0, .19);
+}
+
+.banner {
+  position: relative;
+  background-color: #7294c4;
+}
+
+.banner-text {
+  position: absolute;
+  left: 1em;
+  top: 7em;
 }
 
 /* backgrounds */
@@ -247,13 +251,44 @@ th {
   background-size: cover;
 }
 
-/* media query */
+/* media queries */
 
 @media only screen and (min-width: 25em) {
 
-  .bg-banner {
-    background-image: url("../images/banner-mobile.png");
-    background-size: cover;
+  .banner-text {
+    position: absolute;
+    left: 1em;
+    top: 14em;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner-text {
+    position: absolute;
+    left: 1em;
+    top: 1em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner-text {
+    position: absolute;
+    left: 1em;
+    top: 10em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner-text {
+    position: absolute;
+    left: 3em;
+    top: 12em;
   }
 
 }
