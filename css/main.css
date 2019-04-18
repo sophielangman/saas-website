@@ -85,14 +85,14 @@ a {
 }
 
 .btn-blue {
-  border-color: #7294c4;
-  background-color: #7294c4;
+  border-color: #2f4d7f;
+  background-color: #2f4d7f;
 }
 
 .ghost-btn {
-  border-color: #7294c4;
+  border-color: #2f4d7f;
   background-color: #fff;
-  color: #7294c4;
+  color: #2f4d7f;
 }
 
 .red-ghost-btn {
@@ -108,13 +108,13 @@ a {
 }
 
 .btn-blue:hover {
-  border-color: #7294c4;
-  color: #7294c4;
+  border-color: #2f4d7f;
+  color: #2f4d7f;
 }
 
 .ghost-btn:hover {
-  border-color: #7294c4;
-  background-color: #7294c4;
+  border-color: #2f4d7f;
+  background-color: #2f4d7f;
   color: #fff;
 }
 
@@ -129,7 +129,7 @@ a {
 }
 
 .dark-blue {
-  color: #7294c4;
+  color: #2f4d7f;
 }
 
 .light-blue {
@@ -149,7 +149,7 @@ a {
 }
 
 .bg-dark-blue {
-  background-color: #7294c4;
+  background-color: #2f4d7f;
 }
 
 .bg-light-blue {
@@ -169,7 +169,7 @@ a {
 }
 
 .border-dark {
-  border: 8px solid #7294c4;
+  border: 8px solid #2f4d7f;
 }
 
 .border-light {
@@ -179,12 +179,12 @@ a {
 /* table stuff */
 
 td {
-  border: 1px solid #7294c4;
+  border: 1px solid #2f4d7f;
   height: 2em;
 }
 
 th {
-  border: 1px solid #7294c4;
+  border: 1px solid #2f4d7f;
 }
 
 .table-width {
@@ -194,7 +194,7 @@ th {
 /* Form stuff */
 
 .required {
-  color: #7294c4;
+  color: #2f4d7f;
 }
 
 .different {
@@ -210,7 +210,7 @@ th {
 
 .banner {
   position: relative;
-  background-color: #7294c4;
+  background-color: #2f4d7f;
 }
 
 .banner-text {
