@@ -258,7 +258,11 @@ th {
   .banner-text {
     position: absolute;
     left: 1em;
-    top: 14em;
+    top: 13em;
+  }
+
+  footer {
+    text-align: center;
   }
 
 }
@@ -269,6 +273,10 @@ th {
     position: absolute;
     left: 1em;
     top: 1em;
+  }
+
+  footer {
+    text-align: center;
   }
 
 }
@@ -288,7 +296,7 @@ th {
   .banner-text {
     position: absolute;
     left: 3em;
-    top: 12em;
+    top: 15em;
   }
 
 }
